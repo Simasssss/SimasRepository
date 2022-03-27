@@ -1,0 +1,50 @@
+﻿@page "/"
+@page "/Home"
+@using Hand_In_1_Simas_DNP.Entities.Models
+@using System.Text
+@using Hand_In_1_Simas_DNP.Authentication
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+
+<h3>@Posts()</h3>
+<div>
+    <ul >
+        @foreach (var post in postdata)
+        {   
+            <div class="card" style="width: 18rem; border: 0.1rem solid darkblue;">
+                <div class="card-body">
+                    <h4>@post.Title</h4>
+                    <a>post by:</a>
+                    <a>@post.WrittenBy</a>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-dark" @onclick="() => GoToPost(post.Id)">
+                        Go To Post
+                    </button>
+                </div>
+            </div>
+            <br>
+        }
+    </ul>
+</div>
+@code {
+
+    private JsonContext jsonCont = new JsonContext();
+    private ICollection<Post> postdata;
+
+
+    private string Posts()
+    {
+        postdata = jsonCont.Forum.Posts.ToList();
+        return "Posts:";
+    }
+
+    private async Task GoToPost(int id)
+    {
+        navMgr.NavigateTo("/ActualPost/" + id);
+    }
+    
+
+   
+}

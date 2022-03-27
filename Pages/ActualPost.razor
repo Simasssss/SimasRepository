@@ -1,0 +1,45 @@
+﻿@page "/ActualPost/{id:int}"
+@using Hand_In_1_Simas_DNP.Entities.Models
+@using Hand_In_1_Simas_DNP.Authentication
+@using System.Security.Claims
+@inject IAuthService authService
+@inject NavigationManager navMgr
+@inject JsonContext jsonCon
+
+<AuthorizeView>
+    <Authorized>
+        <div style="border-bottom: 0.1rem solid darkblue;">
+            <h4>@find(id).Title</h4>
+            <br/>
+            <div style="margin-bottom: 10rem">
+                <a>@find(id).Body</a>
+            </div>
+        </div>
+        <a>*space for future comments*</a>
+    </Authorized>
+    <NotAuthorized>
+        <a>You have to be logged in if you want to see this page</a>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private JsonContext jsonCont = new JsonContext();
+    private ICollection<Post> postdata;
+    
+    private Post? find(int id)
+    {
+        postdata = jsonCont.Forum.Posts.ToList();
+        foreach (var post in postdata)
+        {
+            if (post.Id == id)
+            {
+                return post;
+            }
+        }
+        return null;
+    }
+    
+}
