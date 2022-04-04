@@ -2,7 +2,6 @@
 @using Hand_In_1_Simas_DNP.Authentication
 @inject NavigationManager navMgr
 @inject IAuthService authService
-@using Hand_In_1_Simas_DNP.Entities.Models
 
 <AuthorizeView>
     <NotAuthorized>
@@ -52,24 +51,14 @@
     private string userName;
     private string password;
     private string errorLabel;
-
-    private JsonContext jsonCont = new JsonContext();
+    
     
     private async Task CreateUserAsync()
     {
         errorLabel = "";
         try
         {
-    //User user = new User(userName, password);
             await authService.CreateUserAsync(userName, password);
-    //List<User> userlist = new List<User>();
-
-    //userlist = jsonCont.Forum.Users.ToList();
-    //userlist.Add(user);
-    //jsonCont.Forum.Users = userlist;
-            
-    //jsonCont.SaveChangesAsync();
-            
             navMgr.NavigateTo("/login");
         }
         catch (Exception e)

@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
 using System.Text.Json;
 using Hand_In_1_Simas_DNP.Entities.Models;
-using Hand_In_1_Simas_DNP.Services;
+using Hand_In_1_Simas_DNP.JsonDataAccess;
 using Microsoft.JSInterop;
 
 namespace Hand_In_1_Simas_DNP.Authentication;
@@ -9,18 +9,20 @@ namespace Hand_In_1_Simas_DNP.Authentication;
 public class AuthServiceImpl : IAuthService
 {
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; } = null!; // assigning to null! to suppress null warning.
-    private readonly IUserService userService;
+    private readonly IUserDAO userDAO;
+    private readonly IPostDAO postDAO;
     private readonly IJSRuntime jsRuntime;
 
-    public AuthServiceImpl(IUserService userService, IJSRuntime jsRuntime)
+    public AuthServiceImpl(IUserDAO userDAO, IPostDAO postDAO, IJSRuntime jsRuntime)
     {
-        this.userService = userService;
+        this.userDAO = userDAO;
+        this.postDAO = postDAO;
         this.jsRuntime = jsRuntime;
     }
 
     public async Task LoginAsync(string username, string password)
     {
-        User? user = await userService.GetUserAsync(username); // Get user from database
+        User? user = await userDAO.GetUserAsync(username); // Get user from database
 
         ValidateLoginCredentials(password, user); // Validate input data against data from database
         // validation success
@@ -33,17 +35,17 @@ public class AuthServiceImpl : IAuthService
 
     public async Task CreateUserAsync(string username, string password)
     {
-        await userService.CreateUserAsync(username, password);
+        await userDAO.CreateUserAsync(username, password);
     }
     
     public async Task CreatePostAsync(string title, string body, string writtenBy)
     {
-        await userService.CreatePostAsync(title, body, writtenBy);
+        await postDAO.CreatePostAsync(title, body, writtenBy);
     }
 
-    public Task<List<Post>> ReturnPostList()
+    public ICollection<Post> ReturnPostList()
     {
-        return userService.ReturnPostList();
+        return postDAO.ReturnPostList();
     }
 
     public async Task LogoutAsync()

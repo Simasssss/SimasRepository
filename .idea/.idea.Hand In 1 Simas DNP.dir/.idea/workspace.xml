@@ -6,93 +6,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a381d46-b2ec-4361-8e2c-8be2d22680dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentication/AuthServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentication/IAuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentication/SimpleAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassS Diagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entities/Models/ForumContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entities/Models/JsonContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entities/Models/Post.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entities/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hand In 1 Simas DNP.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ActualPost.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Signup.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/TemplateForPost.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Impls/InMemoryUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.staticwebassets.runtime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/scopedcss/bundle/Hand In 1 Simas DNP.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hand In 1 Simas DNP.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/AuthServiceImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/AuthServiceImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/IAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Models/JsonContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ActualPost.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ActualPost.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Login.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Signup.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Signup.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/TemplateForPost.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/TemplateForPost.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/IUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Impls/InMemoryUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Hand In 1 Simas DNP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Hand In 1 Simas DNP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Hand In 1 Simas DNP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Hand In 1 Simas DNP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26ybUEx9eM4zZiFfG02Yp4SDDCT" />
   <component name="ProjectViewState">
@@ -103,6 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Hand In 1 Simas DNP">
@@ -147,6 +106,12 @@
       <updated>1648398793432</updated>
       <workItem from="1648398806159" duration="20000" />
       <workItem from="1648399691032" duration="44000" />
+      <workItem from="1648400992661" duration="29000" />
+      <workItem from="1648401211254" duration="1032000" />
+      <workItem from="1648534993377" duration="518000" />
+      <workItem from="1648707254699" duration="293000" />
+      <workItem from="1648993814461" duration="597000" />
+      <workItem from="1649071310354" duration="4934000" />
     </task>
     <servers />
   </component>
@@ -156,6 +121,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

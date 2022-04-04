@@ -1,7 +1,6 @@
 ﻿@page "/"
 @page "/Home"
 @using Hand_In_1_Simas_DNP.Entities.Models
-@using System.Text
 @using Hand_In_1_Simas_DNP.Authentication
 @inject IAuthService authService
 @inject NavigationManager navMgr
@@ -30,13 +29,13 @@
 </div>
 @code {
 
-    private JsonContext jsonCont = new JsonContext();
+
     private ICollection<Post> postdata;
 
 
     private string Posts()
     {
-        postdata = jsonCont.Forum.Posts.ToList();
+        postdata = authService.ReturnPostList();
         return "Posts:";
     }
 

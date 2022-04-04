@@ -1,5 +1,4 @@
 ﻿@page "/TemplateForPost"
-@using Hand_In_1_Simas_DNP.Entities.Models
 @using Hand_In_1_Simas_DNP.Authentication
 @using System.Security.Claims
 @inject IAuthService authService
@@ -59,10 +58,10 @@
     private async Task CreatePostAsync()
     {
         
+
         errorLabel = "";
         try
         {
-            
             AuthenticationState authState = await AuthState;
             ClaimsPrincipal user = authState.User;
             await authService.CreatePostAsync(title, body, user.Identity.Name);

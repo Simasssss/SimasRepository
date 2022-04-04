@@ -11,6 +11,6 @@ public interface IAuthService
     public Task CreatePostAsync(string title, string body, string writtenBy);
     public Task LogoutAsync();
     public Task<ClaimsPrincipal> GetAuthAsync();
-    public Task<List<Post>> ReturnPostList();
+    public ICollection<Post> ReturnPostList();
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; }
 }

@@ -1,6 +1,7 @@
 ﻿@page "/Login"
 @using Hand_In_1_Simas_DNP.Authentication
 @using Hand_In_1_Simas_DNP.Entities.Models
+@using Hand_In_1_Simas_DNP.JsonDataAccess
 @inject IAuthService authService
 @inject NavigationManager navMgr
 
@@ -54,8 +55,6 @@
     private string userName;
     private string password;
     private string errorLabel;
-
-    private JsonContext jsonCont;
 
     private async Task LoginAsync()
     {

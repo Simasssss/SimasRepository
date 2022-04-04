@@ -22,3 +22,4 @@ C:\JetBrainsRiderProjects\Hand In 1 Simas DNP\Hand In 1 Simas DNP\obj\Debug\net6
 C:\JetBrainsRiderProjects\Hand In 1 Simas DNP\Hand In 1 Simas DNP\obj\Debug\net6.0\ref\Hand In 1 Simas DNP.dll
 C:\JetBrainsRiderProjects\Hand In 1 Simas DNP\Hand In 1 Simas DNP\obj\Debug\net6.0\Hand In 1 Simas DNP.pdb
 C:\JetBrainsRiderProjects\Hand In 1 Simas DNP\Hand In 1 Simas DNP\obj\Debug\net6.0\Hand In 1 Simas DNP.genruntimeconfig.cache
+C:\JetBrainsRiderProjects\Hand In 1 Simas DNP\Hand In 1 Simas DNP\bin\Debug\net6.0\forum.json

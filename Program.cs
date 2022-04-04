@@ -1,8 +1,7 @@
 using System.Security.Claims;
 using Hand_In_1_Simas_DNP.Authentication;
 using Hand_In_1_Simas_DNP.Entities.Models;
-using Hand_In_1_Simas_DNP.Services;
-using Hand_In_1_Simas_DNP.Services.Impls;
+using Hand_In_1_Simas_DNP.JsonDataAccess;
 using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +15,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthServiceImpl>();
-builder.Services.AddScoped<IUserService, InMemoryUserService>();
+builder.Services.AddScoped<IUserDAO, JsonUserDAO>();
+builder.Services.AddScoped<IPostDAO, JsonPostDAO>();
 
 
 
